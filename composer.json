@@ -5,6 +5,8 @@
             "ImranVendor\\EmailSubscription\\": "src/"
         }
     },
+    "license": "MIT",
+    "type": "library",
     "authors": [
         {
             "name": "imranwpsi",
