@@ -19,7 +19,7 @@ class EmailSubscriptionController extends Controller {
 
         EmailSubscription::create($request->all());
 
-        return redirect(route('subscription'))->with(['message' => 'Email Subscription Successfully']);
+        return back()->with(['message' => 'Email Subscription Successfully']);
     }
 
 }
