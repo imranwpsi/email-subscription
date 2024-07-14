@@ -39,13 +39,13 @@ git clone https://github.com/imranwpsi/email-subscription.git packages/hossainVe
             "database/factories"
         ],
         "psr-4": {
-            "HossainVendor\\EmailSubscription\\": "packages/HossainVendor/EmailSubscription/src",
+            "HossainVendor\\EmailSubscription\\": "vendor/imranwpsi/subscription/src",
             "App\\": "app/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "HossainVendor\\EmailSubscription\\": "packages/HossainVendor/EmailSubscription/src",
+            "HossainVendor\\EmailSubscription\\": "vendor/imranwpsi/subscription/src",
             "Tests\\": "tests/"
         }
     },
@@ -81,7 +81,7 @@ Visit http://localhost:8000/subscription in your browser to view the demo.
 If you want to include the project as a package to your app, run:
 
 ```
-composer require imranwpsi/email-subscription
+composer require imranwpsi/subscription
 ```
 
 ## Built With
